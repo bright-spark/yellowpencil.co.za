@@ -7,7 +7,7 @@
 const origin=self.location.origin;
 const skipAllExternalUrl=true;
 const blacklist=["https://firestore.googleapis.com","version.json",".php","%7B%7Binstimage%7D%7D"];
-const preloadList=['./','./offline.html', './index.html', './manifest.webmanifest']
+const preloadList=['./','./offline.html', './index.html', './manifest.json']
 
 function isRejectable(url) {
   if ((skipAllExternalUrl == true) && (url.indexOf(origin) == -1)) {
