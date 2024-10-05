@@ -19,7 +19,7 @@ const kAutoClosePanels =true;
 const kDesktopAllowed =true;
 const kOneSignalAppId="";
 const kTheme='.color-theme-yellow';
-const kCustomColor="yellow";
+const kCustomColor="white";
 const kFillMode=false;
 
 const kPhotoBrowserBackLinkText="close";
@@ -123,10 +123,10 @@ var app = new Framework7({
     "id": "za.co.yellowpencil",
     "root": "#app",
     "theme": theme,
-    "autoDarkTheme": true,
+    "autoDarkTheme": false,
     "language": "en",
     "routes": routes,
-    "name": "TK",
+    "name": "Yellow Pencil",
     "initOnDeviceReady": true,
     "init": true,
     "iosTranslucentBars": true,
