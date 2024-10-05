@@ -18,8 +18,8 @@ const kWebShareApi =true;
 const kAutoClosePanels =true;
 const kDesktopAllowed =true;
 const kOneSignalAppId="";
-const kTheme='.color-theme-yellow';
-const kCustomColor="white";
+const kTheme='.color-theme-black';
+const kCustomColor="black";
 const kFillMode=false;
 
 const kPhotoBrowserBackLinkText="close";
