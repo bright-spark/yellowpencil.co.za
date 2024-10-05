@@ -8,9 +8,9 @@
   <meta name="msapplication-tap-highlight" content="no">
   <script type="Module" src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"></script>
   <script nomodule src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"></script>
-  <meta name="theme-color" content="rgb(246,0,6)">
+  <meta name="theme-color" content="yellow">
   <link rel="icon" type="image/x-icon" href="favicon.ico">
-  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="manifest" href="manifest.json">
   <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
   <link rel="stylesheet" href="css/framework7-bundle.min.css">
   <link rel="stylesheet" href="css/thorium.min.css">
