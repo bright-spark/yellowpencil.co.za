@@ -1,7 +1,8 @@
 {
   "short_name": "Yellow Pencil",
   "name": "Yellow Pencil",
-  ".","display": "standalone",
+  "start_url": ".",
+  "display": "standalone",
   "orientation": "portrait",
   "theme_color": "#ffde5a",
   "background_color": "#ffde5a",
