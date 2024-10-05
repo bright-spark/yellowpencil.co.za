@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en"   >
+<head>
+  <meta charset="UTF-8">
+  <title>TK</title>
+  <meta name="viewport" content="viewport-fit=cover, width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no">
+  <meta name="Format-detection" content="telephone=no">
+  <meta name="msapplication-tap-highlight" content="no">
+  <script type="Module" src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.esm.js"></script>
+  <script nomodule src="https://unpkg.com/@ionic/pwa-elements@latest/dist/ionicpwaelements/ionicpwaelements.js"></script>
+  <meta name="theme-color" content="rgb(246,0,6)">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+  <link rel="manifest" href="manifest.webmanifest">
+  <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+  <link rel="stylesheet" href="css/framework7-bundle.min.css">
+  <link rel="stylesheet" href="css/thorium.min.css">
+  <link rel="stylesheet" href="css/pages/index.css?r=22523">
+  <link rel="stylesheet" href="css/classes.css">
+  <link rel="stylesheet" href="css/custom.css">
+</head>
+
+<body class="theme-dark color-theme-red" >
+  
+  <div id="app" class="framework7-root">
+	<div class="panel-backdrop"></div>
+	<div id="panel-left" class="panel panel-left panel-init panel-cover" data-swipe="true">
+		<div id="left-panel-page-o-1002" class="page">
+			<div id="left-panel-page-content" class="page-content">
+			</div>
+		</div>
+	</div>
+
+	<div id="panel-right" class="panel panel-right panel-init panel-cover" data-swipe="true">
+		<div id="right-panel-page-o-1003" class="page">
+			<div id="right-panel-page-content" class="page-content">
+			</div>
+		</div>
+	</div>
+
+	<div id="view-main" class="view view-main view-init safe-areas" data-url="/">
+		<div id="page" class="page" data-name="index">
+			<div id="page-contents-o-1004" class="page-content">
+			<div id="div-1005" class="embedweb embed-responsive w-100 embed-responsive-cover" data-href="https://thabisokhambule.carrd.co/">
+				<iframe name="carbonized-view" id="iframe-1008" src="https://thabisokhambule.carrd.co" class="embed-responsive-item"></iframe>
+			</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+  <!-- TEXT VIEWER -->
+<div class="sheet-modal text-viewer-popup">
+    <div class="toolbar">
+        <div class="toolbar-inner">
+            <div class="left">
+                <a class="link" href="#"><i class="link fa f7-icons text-viewer-smaller">textformat_alt</i></a>
+                <a class="link" href="#"><i class=" linkfa f7-icons text-viewer-bigger">textformat_alt</i></a>
+            </div>
+            <div class="right">
+                <a class="link sheet-close"><i class="fa f7-icons">xmark_circle_fill</i></a>
+            </div>
+        </div>
+    </div>
+    <div class="sheet-modal-inner">
+        <div class="block block-text"></div>
+    </div>
+</div>
+
+  <script type="text/javascript" src="js/service-worker-register.js"></script>
+  <script type="text/javascript" src="js/framework/framework7-bundle.min.js"></script>
+  <script type="text/javascript" src="js/thorium.config.js"></script>
+  <script type="text/javascript" src="js/plugins/thorium.core.min.js"></script>
+  <script type="text/javascript" src="js/custom.js" ></script>
+  <script>thoriumCorePlugin.appLoaded();</script>-->
+
+</body>
+</html>
