@@ -8,9 +8,9 @@ const kDebugMessagesLevel= 1;
 const kHybridAppsLog = true;
 const kAutoUpdate=false;
 const kShowPreloader=false;
-const kLocalRoot = "http://localhost:8080/thabiso_today/";
+const kLocalRoot = "http://localhost:8080/yellowpencil/";
 const kMediaRoot = './db/dbassets/';
-const kRemoteHost="https://thabiso.today/";
+const kRemoteHost="https://yellowpencil.co.za";
 const kTimeOut =6000;
 const kCrossDomain =false;
 const kAuthMode =0;
@@ -18,8 +18,8 @@ const kWebShareApi =true;
 const kAutoClosePanels =true;
 const kDesktopAllowed =true;
 const kOneSignalAppId="";
-const kTheme='.color-theme-black';
-const kCustomColor=null;
+const kTheme='.color-theme-yellow';
+const kCustomColor="yellow";
 const kFillMode=false;
 
 const kPhotoBrowserBackLinkText="close";
@@ -32,7 +32,7 @@ const kAddToHomeScreenIos = true;
 const kAddToHomeScreenMd = true;
 const kSkipButton=true;
 const kSkipButtonText="Skip";
-const kAddToHomeScreenTitle="TK";
+const kAddToHomeScreenTitle="Yellow Pencil";
 const kAddToHomeScreenMdText="Save to desktop now";
 const kAddToHomeScreenIosText="Save to home screen now";
 const kImgMaxSize=10;
@@ -119,11 +119,11 @@ if (document.location.search.indexOf('theme=') >= 0) {
     theme = document.location.search.split('theme=')[1].split('&')[0];
 }
 var app = new Framework7({
-    "version": "1.0.4",
-    "id": "today.thabiso",
+    "version": "1.0.0",
+    "id": "za.co.yellowpencil",
     "root": "#app",
     "theme": theme,
-    "autoDarkTheme": false,
+    "autoDarkTheme": true,
     "language": "en",
     "routes": routes,
     "name": "TK",
@@ -150,8 +150,8 @@ var app = new Framework7({
         "overlay": "auto",
         "scrollTopOnClick": true,
         "iosOverlaysWebView": true,
-        "iosTextColor": "black",
-        "iosBackgroundColor": "white",
+        "iosTextColor": "yellow",
+        "iosBackgroundColor": "black",
         "materialBackgroundColor": null
     },
     "view": {
